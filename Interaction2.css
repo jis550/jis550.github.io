@@ -1,0 +1,27 @@
+.wrapper {
+    width: 800px;
+    margin: auto;
+    border: 1px solid #4e71d2;
+    padding: 0px
+}
+
+.padded {
+    padding: 10px;
+    border: 1px solid #f1e4a5;
+    margin: 10px;
+
+}
+
+.centre{   padding: 10px;
+    border: 1px solid #ff0000;
+    margin: 10px;
+
+}
+
+    
+    
+#header{ width: 758px}
+#content{ width: 224px; float: left;}
+#centrediv1{ width: 223px; float: left;}
+#sidebar{ width: 225px; float: right;}
+#footer{ width: 758px; clear: both;}
