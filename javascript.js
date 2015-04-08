@@ -1,4 +1,4 @@
-var name = prompt ("what's your name?");
+var name = prompt ("first number is ");
 
 
 var xholder = document.getElementById("xholder");
@@ -8,7 +8,7 @@ xholder.innerHTML = name;
 
 
 
-var color = prompt ("what's your favorite color?");
+var color = prompt ("second number is");
 
 var xholder = document.getElementById("xholder2");
 xholder.innerHTML = color;
