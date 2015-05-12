@@ -1,6 +1,8 @@
 body{
   width:100%;
   font-family:Helvetica Neue;
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -15,7 +17,7 @@ nav {
   position: relative;
   top: 40%;
   left: 43%;
-  width: 620px;
+  width: 620px;  
 }
 
 
@@ -43,7 +45,6 @@ li {
   text-decoration: none;
   color: black;
   font-family: 'georgia', serif;
-  font-style: ;
   font-size: 18px;
   padding: 0px 30px;
 }
@@ -65,20 +66,36 @@ nav li:after {
 }
 
 
-.columns{
-  -webkit-column-width: 300px;
-  column-width: 300px;
-  -webkit-column-gap: 1px;
-  max-width: 1100px;
-  margin: 60px auto;
+.gray {
+  width: 100%;
+  height: 120px;
+  background-color: #7a7a7a;
+  margin: 700px 0px 0px 0px;
+   
 }
 
 
-.item{
-  position: relative;    
-  text-align:center;
-  background-color:#fff;
-  margin: 10px;
+.bye{
+    margin: 60px auto 0 auto;
+    text-align: center;
+    z-index: 1;
+}
+
+
+.columns{
+  -webkit-column-width: 600px; 
+  column-width: 300px;
+  -webkit-column-gap: 1px; 
+  max-width: 700px;
+  margin: 70px auto;
+}
+
+
+.item {
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+  margin: 10px auto 130px auto;
   padding: 0px;
   display: inline-block;
 }
@@ -112,48 +129,14 @@ nav li:after {
 }
   
 
-p1 {
+p {
   position: absolute ;
   bottom: 0;
   vertical-align:middle;    
-  padding: 0px 10 10 50;
-  font: 400 24px "Helvetica Neue";
+  padding: 10px;
+  margin: auto 20px 20px 20px;
+  font: 200 32px "Helvetica Neue";
   letter-spacing: 1px;
-}
-
-
-.yy{letter-spacing: 1px;
-    padding: 80px 12 0 15;
-    font-size: 25px; color:white ;font-family: 'Raleway', sans-serif;
-}
-    
-
-.xx{letter-spacing: 1px;
-    padding: 180px 10 0 11;
-    font-size: 25px; color:white ;font-family: 'Raleway', sans-serif;
-}
-   
-
-.oo{letter-spacing: 1px;
-    padding: 150px 10 0 11;
-    font-size: 25px; color:white ;font-family: 'Raleway', sans-serif;
-}
- 
-
-.aa{letter-spacing: 1px;
-    padding: 140px 10 0 11;
-    font-size: 25px; color:white ;font-family: 'Raleway', sans-serif;
-}
-
-
-.pp{letter-spacing: 1px;
-    padding: 80px 10 0 11;
-    font-size: 25px; color:white ;font-family: 'Raleway', sans-serif;
-}
-
-.vv{letter-spacing: 1px;
-    padding: 155px 10 0 11;
-    font-size: 25px; color:white ;font-family: 'Raleway', sans-serif;
 }
 
 
@@ -173,36 +156,39 @@ p1 {
   width: 100%;
   height: 120px;
   background-color: #7a7a7a;
-  margin: -50px 0px 0px 0px;
+  margin: -70px 0px 0px 0px;
 }
 
 
 .bye{
-  margin: -20px auto 0 auto;
-  text-align: center;
-  z-index: 1;
+    margin: -60px auto 0 auto;
+    text-align: center;
+    z-index: 1;
 }
 
 
 .container {
-  width: 100%;
-  max-width: 1100px;
-  padding: 2em; 
-  margin: 0 auto;
+    width: 100%;
+    max-width: 1100px;
+    padding: 2em;
+    margin: 0 auto;
 }
 
 
-@media(max-width: 460px){
-  {
+    
+
+@media(max-width: 460px) {
+  #logo {
   position: absolute;
   top:30px; 
   left:0%; 
   width: 100px;
   height: auto;
-  }
+}
     
   nav ul li {
   width: 50%;
+  padding: ;
   margin: 0 0 0 10%;
   left:40%;    
   }
@@ -213,10 +199,13 @@ p1 {
   font-family: 'georgia', serif;
   font-style: ;
   font-size: 15px;
-  padding: ;  
   }
     
   #picture {
-  width: 90%;
+  width:90%;   
+  }      
+      
 }
+    
+
     
